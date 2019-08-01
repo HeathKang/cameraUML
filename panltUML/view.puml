@@ -28,9 +28,10 @@ Rel(customer, meta, "put and get device config", "HTTP")
 
 Rel(meta, database, "writes and reads", "MongoDB protocol")
 Rel(data, database, "writes and reads", "MongoDB protocol")
+Rel(meta, message, "writes", "Redis protocol")
 Rel(cmd, message, "publish orders", "Redis protocol")
 Rel(data, message,"subscribe data", "Redis protocol")
-Rel_U(mapper, message, "subscribe orders and publish data", "Redis protocol")
+Rel_U(mapper, message, "subscribe orders/config and  publish data", "Redis protocol")
 
 Rel(mapper, device, "communicate with device", "TCP or other protocol")
 

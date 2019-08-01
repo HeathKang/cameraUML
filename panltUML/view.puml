@@ -1,0 +1,38 @@
+
+@startuml view
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Container.puml
+
+System_Ext(customer, Customer, "Customer system")
+System_Boundary(c1, "Edge system"){
+    Container_Boundary(service, "Service"){
+        Container(cmd, "Command service","Application", "Allows customer put commands")
+        Container(data, "Core_data service","Application", "Allows customer get data")
+        Container(meta, "Meta service","Application", "Allows customer to set camera device config")
+    }
+
+    Container_Boundary(stream, "Data Stream"){
+        ContainerDb(database, "Database", "MongoDB", "To store config and data")
+        ContainerDb(message, "Message_queue","Redis", "Communicate and high speed cache component")
+    }
+
+    Container_Boundary(driver, "Driver"){      
+        Container(mapper, "Mapper","Driver","Communicate with device")
+    }
+}
+
+System(device, "Device", "Camera device")
+
+Rel(customer, cmd, "put commands", "HTTP")
+Rel(customer, data, "get data", "HTTP")
+Rel(customer, meta, "put and get device config", "HTTP")
+
+Rel(meta, database, "writes and reads", "MongoDB protocol")
+Rel(data, database, "writes and reads", "MongoDB protocol")
+Rel(cmd, message, "publish orders", "Redis protocol")
+Rel(data, message,"subscribe data", "Redis protocol")
+Rel_U(mapper, message, "subscribe orders and publish data", "Redis protocol")
+
+Rel(mapper, device, "communicate with device", "TCP or other protocol")
+
+
+@enduml

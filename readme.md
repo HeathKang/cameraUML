@@ -4,9 +4,9 @@
 
 ## 2 硬件组成
 1. [边缘网关](https://www.dell.com/en-us/work/shop/cty/pdp/spd/dell-edge-gateway-5100/xctoi5100us)：
-![边缘网关](./img/panltUML/view/delliot.jpg)
+![边缘网关](./img/plantUML/view/delliot.jpg)
 2. [sony相机](https://www.aegis-elec.com/sony-fcb-ev7520a-2-13mp-30x-zoom-fhd-block-camera.html)：
-![相机](./img/panltUML/view/sony.jpg)
+![相机](./img/plantUML/view/sony.jpg)
    
 ## 3 数采软件框架
 整体软件框架分为三层
@@ -34,5 +34,5 @@
 2. 采用Redis当作消息队列及缓存，可充分发挥Redis高速缓存的优势，提供实时数据采集及控制服务；
 3. 整个系统内部通过消息队列做接口通讯，耦合较为松散，可随时对其中某一模块进行独立开发，便于升级拓展。如驱动层可独立编写，以适配不同的硬件设备。
 ## 整体系统框图
-![系统框图](./img/panltUML/view/view.png)
+![系统框图](./img/plantUML/view/view.png)
    

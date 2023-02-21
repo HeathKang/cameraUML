@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T02:18:22.423Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50" version="20.8.3" etag="pTlPMHHKIGW_w8y5ov8T" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-21T02:33:51.288Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50" version="20.8.3" etag="heIBIBvF-nOfjL8uO3tu" type="github">
   <diagram id="JAI4023TARQraNgQVTQf" name="Page-1">
     <mxGraphModel dx="477" dy="261" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -122,6 +122,77 @@
         </mxCell>
         <mxCell id="Mai_8PukD8vyJlD9m-7o-72" value="Regiser discovery info by mDNS protocol via multicast interface&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="975.5" y="272" width="131" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="Mai_8PukD8vyJlD9m-7o-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="Mai_8PukD8vyJlD9m-7o-75" target="Mai_8PukD8vyJlD9m-7o-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mai_8PukD8vyJlD9m-7o-75" value="start" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1192.5" y="120" width="88" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="Mai_8PukD8vyJlD9m-7o-77" value="Get multicast interface" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1192.5" y="171.5" width="88" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="Mai_8PukD8vyJlD9m-7o-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Mai_8PukD8vyJlD9m-7o-77" target="Mai_8PukD8vyJlD9m-7o-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1236.5238095238094" y="244" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mai_8PukD8vyJlD9m-7o-80" value="Browser discovery info by mDNS protocol via multicast interface&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1171" y="272" width="131" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="Mai_8PukD8vyJlD9m-7o-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.529;entryY=0.037;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1043" y="443" as="sourcePoint" />
+            <mxPoint x="1042.7699999999998" y="481.851" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1043" y="450" />
+              <mxPoint x="1043" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mai_8PukD8vyJlD9m-7o-83" value="start" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="997" y="420" width="88" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="Mai_8PukD8vyJlD9m-7o-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mai_8PukD8vyJlD9m-7o-87" target="Mai_8PukD8vyJlD9m-7o-93">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1044" y="527" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mai_8PukD8vyJlD9m-7o-87" value="Collect discovery info via mcp-bootstrap-agent" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="979" y="481" width="130" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="Mai_8PukD8vyJlD9m-7o-88" value="Compose discovery info&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="978.5" y="597.5" width="131" height="38.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Mai_8PukD8vyJlD9m-7o-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="Mai_8PukD8vyJlD9m-7o-93" target="Mai_8PukD8vyJlD9m-7o-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mai_8PukD8vyJlD9m-7o-93" value="Collect primary node serial number via &lt;br&gt;mcp-bootstrap-agent" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="977.5" y="524" width="133.5" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="Mai_8PukD8vyJlD9m-7o-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" target="Mai_8PukD8vyJlD9m-7o-101">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1228.5" y="443" as="sourcePoint" />
+            <mxPoint x="1228.2699999999998" y="481.851" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1229" y="450" />
+              <mxPoint x="1229" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mai_8PukD8vyJlD9m-7o-99" value="start" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1182.5" y="420" width="88" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="Mai_8PukD8vyJlD9m-7o-101" value="Collect discovery info via mcp-bootstrap-browser" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1164" y="504" width="130" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="Mai_8PukD8vyJlD9m-7o-102" value="Compose discovery info&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1164" y="597.5" width="131" height="38.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Mai_8PukD8vyJlD9m-7o-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Mai_8PukD8vyJlD9m-7o-101" target="Mai_8PukD8vyJlD9m-7o-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1229.7619047619046" y="563" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

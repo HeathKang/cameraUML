@@ -1,1 +1,107 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T02:35:13.462Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50" version="20.8.3" etag="zKae6s7D39-OxHfLooyr" type="github"><diagram id="3Fy23icALNPS5jXZoJnz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-21T06:45:52.236Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50" version="20.8.3" etag="rGJNTT7-DMVJT95ZdD8p" type="github">
+  <diagram id="9tvMCfCQ81pBm4aX68M5" name="Page-1">
+    <mxGraphModel dx="1155" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ky9qzhBy2XdrOydeyLNW-1" target="ky9qzhBy2XdrOydeyLNW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-1" value="mcp-election" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ky9qzhBy2XdrOydeyLNW-5" target="ky9qzhBy2XdrOydeyLNW-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-12" value="OCP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ky9qzhBy2XdrOydeyLNW-10">
+          <mxGeometry x="-0.15" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-16" value="MCP" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ky9qzhBy2XdrOydeyLNW-5" target="ky9qzhBy2XdrOydeyLNW-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-5" value="&lt;b&gt;Detect&lt;/b&gt;&lt;br&gt;cloud intent" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ky9qzhBy2XdrOydeyLNW-9" target="ky9qzhBy2XdrOydeyLNW-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-9" value="&lt;b&gt;Get &lt;/b&gt;mcp-election-ocp RPM &lt;b&gt;location &lt;/b&gt;via &lt;b&gt;mcp-bootstrap-utility&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ky9qzhBy2XdrOydeyLNW-13" target="ky9qzhBy2XdrOydeyLNW-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ky9qzhBy2XdrOydeyLNW-13" target="ky9qzhBy2XdrOydeyLNW-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="515" />
+              <mxPoint x="690" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-13" value="&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Install &lt;/b&gt;mcp-election-ocp RPM&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Trigger &lt;/b&gt;mcp-election-ocp &lt;b&gt;service &lt;/b&gt;start&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="510" y="480" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ky9qzhBy2XdrOydeyLNW-15" target="ky9qzhBy2XdrOydeyLNW-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-15" value="Select mcp cluster &lt;b&gt;primary node&lt;/b&gt; via &lt;b&gt;mcp election&lt;/b&gt; algorithm" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ky9qzhBy2XdrOydeyLNW-17" target="ky9qzhBy2XdrOydeyLNW-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-17" value="Trigger&lt;b&gt; mcp-deployment&lt;/b&gt; via &lt;b&gt;mcp-bootstrap-utility&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-19" value="&lt;b&gt;Send &lt;/b&gt;heartbeat" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-21" value="&lt;div&gt;&lt;b&gt;Exit &lt;/b&gt;and &lt;b&gt;disable &lt;/b&gt;mcp-election service&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="510" y="675" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ky9qzhBy2XdrOydeyLNW-23" target="ky9qzhBy2XdrOydeyLNW-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-23" value="mcp-election-ocp" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="750" y="225" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ky9qzhBy2XdrOydeyLNW-25" target="ky9qzhBy2XdrOydeyLNW-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-25" value="Select mcp cluster &lt;b&gt;primary node &lt;/b&gt;via &lt;b&gt;ocp election&lt;/b&gt; algorithm" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="750" y="320" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ky9qzhBy2XdrOydeyLNW-27" target="ky9qzhBy2XdrOydeyLNW-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-27" value="Setup &lt;b&gt;management &lt;/b&gt;network well-known ip" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ky9qzhBy2XdrOydeyLNW-29" target="ky9qzhBy2XdrOydeyLNW-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-29" value="&lt;b&gt;Trigger &lt;/b&gt;mcp-deployment process via &lt;b&gt;mcp-bootstrap-utility&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ky9qzhBy2XdrOydeyLNW-31" target="ky9qzhBy2XdrOydeyLNW-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-31" value="&lt;b&gt;Get &lt;/b&gt;mcp-bootstrap-ocp-utility &lt;b&gt;location &lt;/b&gt;via &lt;b&gt;mcp-bootstrap-utility&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ky9qzhBy2XdrOydeyLNW-33" target="ky9qzhBy2XdrOydeyLNW-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-33" value="&lt;b&gt;Trigger &lt;/b&gt;ocp-deployment process via &lt;b&gt;mcp-bootstrap-ocp-utility&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ky9qzhBy2XdrOydeyLNW-35" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Send&amp;nbsp;&lt;/b&gt;heartbeat" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
